@@ -6,7 +6,7 @@ namespace BlueCheese
 
 	void Print()
 	{
-		printf("Hello World\n");
+		printf("Welcome to BlueCheese Game Engine\n");
 	}
 
 }
