@@ -7,7 +7,7 @@ namespace BC
 	
 	void Log::Init()
 	{
-		spdlog::set_pattern("%^[%T] %n: %V%$");
+		spdlog::set_pattern("%^[%T] %n: %v%$");
 
 		s_CoreLogger = spdlog::stdout_color_mt("BLUECHEESE");
 		s_CoreLogger->set_level(spdlog::level::trace);

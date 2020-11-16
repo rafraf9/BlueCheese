@@ -6,6 +6,8 @@ extern BC::Application* BC::CreateApplication();
 int main(int argc, char* argv[])
 {
 	BC::Log::Init();
+	BC_CORE_WARN("Initialized Log");
+	BC_INFO("Hello");
 
 	auto app = BC::CreateApplication();
 	app->Run();
