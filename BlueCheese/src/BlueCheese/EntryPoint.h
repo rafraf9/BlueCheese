@@ -5,7 +5,7 @@ extern BC::Application* BC::CreateApplication();
 
 int main(int argc, char* argv[])
 {
-	printf("Welcome to BlueCheese game engine!!\n");
+	BC::Log::Init();
 
 	auto app = BC::CreateApplication();
 	app->Run();
