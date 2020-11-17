@@ -19,6 +19,8 @@
     <ClInclude Include="src\BlueCheese\Log.h">
       <Filter>BlueCheese</Filter>
     </ClInclude>
+    <ClInclude Include="src\BlueCheese\Events\Event.h" />
+    <ClInclude Include="src\BlueCheese\Events\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BlueCheese\Application.cpp">
